@@ -1,0 +1,19 @@
+[user]
+  email = tshunglee.tan@whalemove.com
+  name = tshunglee.tan
+[push]
+  default = simple
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+  unstage = reset HEAD --
+  last = log -1 HEAD
+  l = log --stat
+  assume-unchanged = !git ls-files -v | grep "^[[:lower:]]"
+[core]
+  filemode = false
+  editor = vim
+  ignorecase = false
+
